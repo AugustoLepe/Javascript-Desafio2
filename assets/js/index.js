@@ -1,3 +1,4 @@
+//Desafío Parte 1
 const modificarBorde = () => {
     const foto_1 = document.querySelector("#img_guitarras");
 
@@ -8,6 +9,7 @@ const modificarBorde = () => {
     }
 }
 
+//Desafío Parte 2
 const verificar = () => {
     const cant1 = document.querySelector("#cantidad_1").value;
     const cant2 = document.querySelector("#cantidad_2").value;
@@ -22,6 +24,7 @@ const verificar = () => {
     }
 }
 
+//Desafío Parte 3
 const ingresar = () => {
     const digito1 = document.querySelector("#pass_1").value;
     const digito2 = document.querySelector("#pass_2").value;
