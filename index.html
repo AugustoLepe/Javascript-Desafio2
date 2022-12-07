@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    <h2>Desafío Parte 1</h2>
+    <img id="img_guitarras" src="./assets/img/1_guitarras.jpg" alt="5guitarras" onclick="modificarBorde()">
+
+    <h2>Desafío Parte 2</h2>
+    <div class="parte_2">
+        <div>
+            <img src="./assets/img/2_Rock.jpg" alt="rock">
+            <input type="text" id="cantidad_1">
+        </div>
+        <div>
+            <img src="./assets/img/2_RS.jpg" alt="rolling stones">
+            <input type="text" id="cantidad_2">
+        </div>
+        <div>
+            <img src="./assets/img/2_Vinilo.jpg" alt="vinilo">
+            <input type="text" id="cantidad_3">
+        </div>
+    </div>
+    <div class="verificar">
+        <div id="respuesta">&nbsp;</div>
+        <button onclick="verificar()">Verificar</button>
+    </div>
+
+    <h2>Desafío Parte 3</h2>
+    <div class="parte_3">
+        <h3>Ingresa el Password</h3>
+        <select name="pass_1" id="pass_1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+        <select name="pass_2" id="pass_2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+        <select name="pass_3" id="pass_3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+        
+        <div class="ingresar">
+            <button onclick="ingresar()">Ingresar</button>
+            <div id="mensaje">&nbsp;</div>
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

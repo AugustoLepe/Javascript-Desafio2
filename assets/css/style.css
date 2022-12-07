@@ -1,0 +1,38 @@
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.parte_2 {
+    width: 50%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.verificar {
+    width: 50%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#respuesta {
+    margin-bottom: 10px;
+}
+
+.parte_3 {
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ingresar {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#mensaje {
+    margin-top: 10px;
+}
